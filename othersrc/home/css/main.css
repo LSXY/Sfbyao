@@ -1,0 +1,152 @@
+/**********
+ *  页面样式
+ **********/
+
+/**
+ *  基本默认值
+ */
+
+ html {
+ 	font-size: 62.5%;
+ 	color: #222222;
+ }
+
+ ::selection {
+ 	background-color: #B3D4FC;
+ 	text-shadow: none;
+ }
+
+ ul {
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ li {
+ 	list-style: none;
+ }
+
+ /**
+ *  工具样式
+ */
+
+.center-block {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.pull-right {
+	float: right !important;
+}
+
+.pull-left {
+	float: left !important;
+}
+
+.text-right {
+	text-align: right !important;
+}
+
+.text-left {
+	text-align: left !important;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.hide {
+	display: none !important;
+}
+
+.show {
+	display: block !important;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+.text-hide {
+	font: 0/0 a;
+	color: transparent;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: ' ';
+	display: table;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/**
+ *  自定义页面样式
+ */
+
+body {
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+	background-color: #F7F7F7;
+}
+
+a {
+	color: #666666;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #00AAEE;
+	text-decoration: underline;
+}
+
+/*	Header  */
+
+header {
+	width: 100%;
+	background-color: #ADADFA;
+}
+
+header nav {
+	margin: 0 auto;
+	max-width: 1000px;
+	height: 100%;
+	background-color: rgba(47, 47, 47, 0.5);
+}
+
+header .brand {
+	float: left;
+	padding: 0 1.5rem;
+}
+
+header .brand img {
+	display: block;
+	height: 4.222rem;
+}
+
+header ul {
+	text-align: right;
+}
+
+header ul li {
+	display: inline-block;
+	border-left: solid 1px #F0EFE9;
+}
+
+header ul li a {
+	display: inline-block;
+	padding: 0 2.112rem;
+	line-height: 4.2rem;
+	font-size: 1.211rem;
+	font-weight: bold;
+}
+
+header ul li a:hover,
+header ul li a:active {
+  color: #FFB300;
+}
