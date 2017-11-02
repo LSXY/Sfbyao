@@ -1,0 +1,69 @@
+{
+	"Setting-User" : {
+		"always_show_minimap_viewport": true,
+		"auto_complete": false,
+		"auto_complete_delay": 250,
+		"caret_extra_width": 3,
+		"caret_style": "solid",
+		"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+		"default_line_ending": "unix",
+		"draw_centered": true,
+		"draw_indent_guides": false,
+		"draw_white_space": "none",
+		"enable_tab_scrolling": false,
+		"expand_tabs_on_save": true,
+		"file_exclude_patterns":
+		[
+			"._*",
+			"._*.*"
+		],
+		"find_selected_text": true,
+		"fold_buttons": false,
+		"font_face": "微软雅黑Monaco",
+		"font_options":
+		[
+			"no_bold",
+			"no_italic",
+			"subpixel_antialias",
+			"no_round",
+			"gdi"
+		],
+		"font_size": 21,
+		"gutter": false,
+		"highlight_line": true,
+		"hot_exit": false,
+		"ignored_packages":
+		[
+			"Vintage"
+		],
+		"line_numbers": false,
+		"line_padding_bottom": 4,
+		"line_padding_top": 4,
+		"margin": 0,
+		"material_theme_accent_scrollbars": true,
+		"material_theme_arrow_folders": true,
+		"material_theme_bright_scrollbars": true,
+		"material_theme_compact_panel": true,
+		"material_theme_compact_sidebar": true,
+		"material_theme_disable_folder_animation": true,
+		"material_theme_disable_tree_indicator": true,
+		"material_theme_panel_separator": true,
+		"material_theme_small_statusbar": true,
+		"material_theme_small_tab": true,
+		"material_theme_tabs_autowidth": true,
+		"material_theme_tree_headings": true,
+		"open_files_in_new_window": false,
+		"overlay_scroll_bars": "enabled",
+		"remember_open_files": true,
+		"scroll_past_end": true,
+		"show_tab_close_buttons": false,
+		"tab_size": 2,
+		"theme": "Material-Theme.sublime-theme",
+		"trim_trailing_white_space_on_save": true,
+		"update_check": false,
+		"word_wrap": true
+	},
+	"Live-Reload": {
+		"enabled_plugins": ["SimpleReloadPlugin","SimpleRefresh"]
+	}
+}
