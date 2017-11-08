@@ -6,57 +6,95 @@
   <title>Sfbyao</title>
   <link rel="stylesheet" href="../common/css/normalize.css">
   <!-- <link rel="stylesheet" href="../common/css/loading.css"> -->
+  <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animation.css">
 </head>
 <body>
 <header>
   <nav class="menu pull-left">
-    <a href="#menu">
+    <a href="#menu" id="menu">
       <svg width="24px" height="24px" viewBox="0 0 48 48"><path d="M6 36h36v-4H6v4zm0-10h36v-4H6v4zm0-14v4h36v-4H6z"></path></svg>
     </a>
+
   </nav>
   <nav class="title pull-left">
     <a href="#setting" class="pull-left">LuoBoHu</a>
     <a href="#index" class="pull-right">首页</a>
   </nav>
-  <nav class="search pull-left">
-    <!-- <span class="icon"><svg viewBox="0 0 1024 1024" width="31" height="31"><path d="M1007.483871 957.935484l-303.896774-303.896774c132.129032-155.251613 125.522581-389.780645-23.122581-535.122581-155.251613-155.251613-406.296774-155.251613-561.548387 0-155.251613 155.251613-155.251613 406.296774 0 561.548387 145.341935 145.341935 379.870968 155.251613 535.122581 23.122581l303.896774 303.896774c13.212903 13.212903 33.032258 13.212903 46.245161 0C1020.696774 994.270968 1020.696774 971.148387 1007.483871 957.935484zM168.464516 630.916129C39.63871 502.090323 39.63871 293.987097 168.464516 165.16129 297.290323 36.335484 505.393548 36.335484 634.219355 165.16129c128.825806 128.825806 128.825806 336.929032 0 465.754839C505.393548 759.741935 297.290323 759.741935 168.464516 630.916129z"></path></svg></span> -->
-    <input  type= "text" class="import" placeholder="搜索...">
-    <div class="suggest">
-      <a href="?search=大王基地为1"><span class="keyword">大王基地为</span>1</a>
-      <a href="#search">大王基地为2</a>
-    </div>
-  </nav>
+
+  <nav class="search pull-left" id="search">
+      <span class="icon"><svg width="24px" height="24px" viewBox="0 0 1024 1024"  id="search-icon"><path d="M1007.483871 957.935484l-303.896774-303.896774c132.129032-155.251613 125.522581-389.780645-23.122581-535.122581-155.251613-155.251613-406.296774-155.251613-561.548387 0-155.251613 155.251613-155.251613 406.296774 0 561.548387 145.341935 145.341935 379.870968 155.251613 535.122581 23.122581l303.896774 303.896774c13.212903 13.212903 33.032258 13.212903 46.245161 0C1020.696774 994.270968 1020.696774 971.148387 1007.483871 957.935484zM168.464516 630.916129C39.63871 502.090323 39.63871 293.987097 168.464516 165.16129 297.290323 36.335484 505.393548 36.335484 634.219355 165.16129c128.825806 128.825806 128.825806 336.929032 0 465.754839C505.393548 759.741935 297.290323 759.741935 168.464516 630.916129z"></path></svg></span>
+      <div class="active" id="search-active">
+        <input  type= "text" class="import" placeholder="搜索...">
+        <div class="suggest">
+          <a href="?search=大王基地为1"><span class="keyword">大王基地为</span>1</a>
+          <a href="#search">大王基地为2</a>
+        </div>
+      </div>
+    </nav>
+
   <nav class="control">
 
   </nav>
 </header>
 
-<main>
-	<section class="loading">
+<main class=" sidebar-toggle">
+  <section class="loading">
 		<div class="container">
-        <div class="cube" id="cube">
-            <div class="side side1">
+            <div class="cube" id="cube">
+                <div class="side side1">
+                </div>
+                <div class="side side2">
+                </div>
+                <div class="side side3">
+                </div>
+                <div class="side side4">
+                </div>
+                <div class="side side5">
+                </div>
+                <div class="side side6">
+                </div>
             </div>
-            <div class="side side2">
-            </div>
-            <div class="side side3">
-            </div>
-            <div class="side side4">
-            </div>
-            <div class="side side5">
-            </div>
-            <div class="side side6">
-            </div>
-        </div>
     </div>
-	</section>
+  </section>
+
+  <section class="sidebar  pull-left"  id="sidebar">
+    <div class="container">
+      <div class="user">
+        <a href="#setting"><img src="img/head.jpg" class="user-icon"></a>
+        <h2 class="user-name plr-12">胡益豪</h2>
+        <h3 class="user-brief plr-12">MST engine is world of best analysis engine.</h3>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="../index">首页</a></li>
+          <li><a href="../index">日记</a></li>
+          <li><a href="../index">文章</a></li>
+          <li><a href="../index">设置</a></li>
+          <li><a href="../index">关于我</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>2017@Fly.Inc </p>
+    </div>
+  </section>
+
+  <section class="ince">
+    <div class="container">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </section>
 </main>
 
-<footer>
-
-</footer>
-
+<script src="js/header.js"></script>
 <!-- <script src="js/cude.js"></script> -->
 </body>
 </html>
