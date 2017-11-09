@@ -3,7 +3,7 @@
 
 header {
   /*transform: translate3d(0,-64px,0);*/
-  animation: header-show 0.45s ease-out;
+  animation: header-show  0.3s cubic-bezier(0.0,0.0,0.2,1);
 }
 
 @keyframes header-show {
@@ -22,7 +22,7 @@ header {
 
 main  .sidebar {
   /*transform: translate3d(-210px,0,0);*/
-  animation: sidebar-show 0.45s ease-out;
+  animation: sidebar-show  0.3s cubic-bezier(0.0,0.0,0.2,1);
 }
 
 @keyframes sidebar-show {
@@ -41,7 +41,7 @@ main  .sidebar {
 
 main .ince {
   /*transform: translate3d(0,210px,0);*/
-  animation: ince-show 0.45s ease-out;
+  animation: ince-show  0.3s cubic-bezier(0.0,0.0,0.2,1);
 }
 
 @keyframes ince-show {

@@ -1,0 +1,42 @@
+main .ince {
+  width: auto;
+}
+
+main .ince .container {
+  padding-left: 107px;
+  padding-right: 107px;
+  /*width: 90%;*/
+  /*white-space: normal;*/
+  transition: 0.2s 0.05s linear;
+}
+
+main.sidebar-toggle .ince .container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+main .ince .container .tale {
+    display: table-row;
+    /*float: left;*/
+    margin-left: 16px;
+    margin-right: 16px;
+    max-width: 530px;
+    min-width: 320px;
+    width: 100%;
+}
+
+main .ince .container .tale .pad {
+  height: 14px;
+}
+
+main .ince .container .tale .cont {
+  background-color: #dddfda;
+}
+
+main .ince .container .tale .cont .dsc {
+  display: block;
+  width: 100%;
+  height: auto;
+  /*margin: auto;*/
+}
+
