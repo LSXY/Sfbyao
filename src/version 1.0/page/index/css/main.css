@@ -1,7 +1,13 @@
 main {
-  position: absolute;
+  box-sizing: border-box;
+  padding-top: 64px;
   width: 100%;
-  height: calc(100% - 74px);
+  height: 100%;
+  overflow: hidden;
+}
+
+main .pad {
+  height: 64px;
 }
 
 main .sidebar, main .ince {
@@ -11,13 +17,11 @@ main .sidebar, main .ince {
 }
 
 main .sidebar {
-  display: flex;
+  margin-top: 10px;
   margin-right: 10px;
   margin-left: -220px;
   width: 210px;
-  transition: 0.4s ease;
-  /*--元素以从上到下排在一列中--*/
-  flex-direction: column;
+  transition: 0.45s ease;
 }
 
 main.sidebar-toggle  .sidebar{
@@ -44,10 +48,19 @@ main .sidebar .container .user .user-name, .user-brief {
 }
 
 main .sidebar .container .user .user-brief {
+  overflow : hidden;
   text-overflow: ellipsis;
-  overflow: hidden;
   white-space: nowrap;
 }
+
+/*main .sidebar .container .user .user-brief::after {
+  content: "\002026";
+  float: right;
+  /*margin-left: -14px;
+  width: 14px;
+  height: 18px;
+  background-color: #ddaadd;
+}*/
 
 main .sidebar .container .menu ul li {
   font-weight: bold;
