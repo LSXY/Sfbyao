@@ -478,12 +478,6 @@ template {
  *  工具样式
  */
 
-.center-block {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .pull-left {
   float: left !important;
 }
@@ -561,6 +555,8 @@ html, body {
 }
 
 body {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
   background-color: #edf4f3;
 }
 

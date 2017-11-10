@@ -1,9 +1,9 @@
 main {
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
   padding-top: 64px;
   width: 100%;
-  height: 100%;
-  overflow: hidden;
+  /*height: 100%;*/
+  /*overflow: hidden;*/
 }
 
 main .pad {
@@ -12,15 +12,13 @@ main .pad {
 
 main .sidebar, main .ince {
   height: 100%;
-  overflow-y: auto;
-  overflow-x: hidden;
 }
 
 main .sidebar {
   margin-top: 10px;
   margin-right: 10px;
   margin-left: -220px;
-  width: 210px;
+  flex-basis: 210px;
   transition: 0.45s ease;
 }
 
@@ -29,8 +27,12 @@ main.sidebar-toggle  .sidebar{
 }
 
 main .sidebar .container {
+  position: fixed;
     /*--所有元素只有一个grow时默认填充所有剩余空间，空间不足时缩回到默认宽高--*/
-    flex-grow: 1;
+  width: 210px;
+  flex-grow: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 main .sidebar .container .user {
@@ -45,6 +47,8 @@ main .sidebar .container .user .user-icon {
 
 main .sidebar .container .user .user-name, .user-brief {
   cursor: default;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 main .sidebar .container .user .user-brief {

@@ -1,31 +1,26 @@
 main .ince {
   width: 100%;
+  /*flex-basis: calc(100% - 210px);*/
 }
 
 main .ince .container {
-  /*margin: 0 auto;*/
   width: 95%;
-  /*文字强制不换行*/
-  white-space: normal;
 }
 
 main .ince .container .pad {
-  /*display: inline-block;*/
   max-width: 530px;
   min-width: 140px;
   /*兼容edge/safari*/
   width: 100%;
+  height: 100%;
   transition: 0.311s linear;
 }
-
-/*main .ince .container .pad:not*/
 
 main .ince .container .pad + .pad {
   margin-left: 24px;
 }
 
 main .ince .container .pad .tale {
-    /*display: table-row;*/
     margin-top: 24px;
     box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
 }
@@ -37,7 +32,6 @@ main .ince .container .pad .tale .cont {
 main .ince .container .pad .tale .cont .dsc {
   display: block;
   width: 100%;
-  height: auto;
-  /*margin: auto;*/
+  /*height: auto;*/
 }
 
