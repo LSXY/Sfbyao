@@ -21,7 +21,7 @@ header {
 /*  侧边栏  */
 
 main  .sidebar {
-  /*transform: translate3d(-210px,0,0);*/
+  /*transform: translate3d(0,0,0);*/
   animation: sidebar-show  0.3s cubic-bezier(0.0,0.0,0.2,1);
 }
 
@@ -39,12 +39,12 @@ main  .sidebar {
 
 /*  应用块  */
 
-main .ince {
+main .view {
   /*transform: translate3d(0,210px,0);*/
-  animation: ince-show  0.3s cubic-bezier(0.0,0.0,0.2,1);
+  animation: view-show  0.3s cubic-bezier(0.0,0.0,0.2,1);
 }
 
-@keyframes ince-show {
+@keyframes view-show {
   0% {
     transform: translate3d(0,210px,0);
   }
@@ -52,6 +52,6 @@ main .ince {
     /*transform: translate3d(-40px,0,0);*/
   }
   100% {
-    transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
   }
 }

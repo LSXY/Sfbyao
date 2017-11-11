@@ -28,11 +28,11 @@
 
     menu.onclick = function (){
       var cn = main.className,
-              an = ' sidebar-toggle';
+              an = ' toggle';
       if (cn.indexOf(an) < 0) {
         main.className += an;
       } else {
-        main.className = cn.replace(' sidebar-toggle','');
+        main.className = cn.replace(' toggle','');
       }
     }
 

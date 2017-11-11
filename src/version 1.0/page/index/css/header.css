@@ -24,10 +24,15 @@ header .title {
 
 header .title a {
   line-height: 24px;
-  font-size: 24px;
+  font-size: 21px;
+}
+
+header .title a:first-child {
+  font-weight: 900;
 }
 
 header .search {
+  display: none;
   margin-left: 20px;
   width: 40px;
   height: 44px;
@@ -118,4 +123,8 @@ header .search .active .suggest a .keyword {
 
 header .search .active .suggest a:hover {
    background-color: rgba(245, 245, 245, 0.5);
+}
+
+header .pad {
+  height: 64px;
 }

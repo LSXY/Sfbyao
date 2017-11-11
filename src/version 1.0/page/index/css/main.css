@@ -1,48 +1,51 @@
 main {
   /*box-sizing: border-box;*/
-  padding-top: 64px;
-  width: 100%;
+  /*width: 100%;*/
   /*height: 100%;*/
-  /*overflow: hidden;*/
-}
-
-main .pad {
-  height: 64px;
-}
-
-main .sidebar, main .ince {
-  height: 100%;
+  overflow: hidden;
+  background-color: #F6F6F6;
 }
 
 main .sidebar {
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-left: -220px;
-  flex-basis: 210px;
-  transition: 0.45s ease;
+  position: fixed;
+  padding-top: 80px;
+  width: 210px;
+  height: 100%;
+  /*background-color: #ddadda;*/
+  transition: 0.3s cubic-bezier(0.0,0.0,0.2,1);
+  box-sizing: border-box;
+  /*flex: auto;*/
 }
 
-main.sidebar-toggle  .sidebar{
-  margin-left: 0;
+main.toggle  .sidebar{
+  transform: translate3d(-210px,0,0);
+}
+
+main .sidebar .stone {
+  height: 100%;
+  overflow-y: auto;
 }
 
 main .sidebar .container {
-  position: fixed;
-    /*--所有元素只有一个grow时默认填充所有剩余空间，空间不足时缩回到默认宽高--*/
-  width: 210px;
   flex-grow: 1;
-  overflow-y: auto;
-  overflow-x: hidden;
 }
 
 main .sidebar .container .user {
   margin-bottom: 34px;
+  width: 100%;
+  /*height: 190px;*/
 }
 
 main .sidebar .container .user .user-icon {
-  width: 210px;
-  height: 210px;
-  overflow: hidden;
+  /*width: 100%;*/
+  height: 190px;
+}
+
+main .sidebar .container .user .user-icon img {
+  width: 117px;
+  height: 117px;
+  /*border-radius: 50%;*/
+  /*overflow: hidden;*/
 }
 
 main .sidebar .container .user .user-name, .user-brief {
@@ -66,21 +69,27 @@ main .sidebar .container .user .user-brief {
   background-color: #ddaadd;
 }*/
 
-main .sidebar .container .menu ul li {
-  font-weight: bold;
+main .sidebar .container .menu {
+  /*width: 100%;*/
 }
 
 main .sidebar .container .menu ul li a {
   display: block;
-  margin-bottom: 12px;
   height: 48px;
   padding-left: 20px;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 48px;
+  font-weight: 500;
+  transition: 0.17s;
 }
 
 main .sidebar .container .menu ul li a:hover {
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.05);
+}
+
+main .sidebar .container .menu .current {
+  color: #FF0033;
+  background-color: rgba(0,0,0,0.05);
 }
 
 main  .sidebar .copyright {
@@ -90,4 +99,15 @@ main  .sidebar .copyright {
   color: #aaa;
   font-size: 12px;
   line-height: 16px;
+}
+
+main .view {
+  float: right;
+  width: calc(100% - 210px);
+  padding-top: 64px;
+  transition: 0.3s cubic-bezier(0.0,0.0,0.2,1);
+}
+
+main.toggle  .view {
+  width: 100%;
 }
