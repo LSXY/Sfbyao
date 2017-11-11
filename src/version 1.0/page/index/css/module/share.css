@@ -16,15 +16,19 @@ main .view .share .stone + .stone {
 }
 
 main .view .share .stone .tale {
-    margin-top: 24px;
-    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+  margin-top: 24px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
 }
 
-main .view .share .stone .tale .cont {
-  background-color: #dddfda;
+main .view .share .stone .tale .strik {
+  margin: 16px;
 }
 
-main .view .share .stone .tale .cont .dsc {
+main .view .share .stone .tale .dsc {
+}
+
+main .view .share .stone .tale .dsc img {
   display: block;
   width: 100%;
   /*height: auto;*/

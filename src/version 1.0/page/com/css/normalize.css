@@ -574,3 +574,14 @@ a:hover, a:active {
   /*color: #00AAEE;*/
   /*text-decoration: underline;*/
 }
+
+.alt {
+  color: #2962FF;
+}
+
+.alt-svg {
+  width: 18px;
+  height: 18px;
+  stroke: none;
+  fill: #0000ff;
+}
