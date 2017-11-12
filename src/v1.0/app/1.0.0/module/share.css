@@ -22,8 +22,31 @@ main .view .share .stone .tale {
 }
 
 main .view .share .stone .tale .strik {
-  margin: 16px;
+  padding: 16px;
+  height: 36px;
 }
+
+main .view .share .stone .tale:hover .right .timeout{
+  display: none;
+}
+
+main .view .share .stone .tale:hover .right .more {
+  display: block;
+}
+
+main .view .share .stone .tale .strik .left .user-name {
+  margin-left: 6px;
+}
+
+main .view .share .stone .tale .strik .left .user-name, .alt, .right .timeout {
+  line-height: 36px;
+}
+
+main .view .share .stone .tale .right .more {
+  display: none;
+}
+
+
 
 main .view .share .stone .tale .dsc {
 }

@@ -24,6 +24,9 @@ html {
 
 body {
   margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-family: "Microsoft YaHei", sans-serif;
 }
 
 /**
@@ -478,6 +481,10 @@ template {
  *  工具样式
  */
 
+.mt-9 {
+  margin-top: 9px;
+}
+
 .pull-left {
   float: left !important;
 }
@@ -555,16 +562,6 @@ template {
 /**
  *  自定义页面样式
  */
-
-/*html, body {
-  width: 100%;
-  height: 100%;
-}*/
-
-body {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-}
 
 a {
   color: #666666;
