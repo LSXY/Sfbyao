@@ -11,10 +11,8 @@ main .sidebar {
   padding-top: 80px;
   width: 210px;
   height: 100%;
-  /*background-color: #ddadda;*/
-  transition: 0.3s cubic-bezier(0.0,0.0,0.2,1);
+  transition: 382ms cubic-bezier(0.0,0.0,0.2,1);
   box-sizing: border-box;
-  /*flex: auto;*/
 }
 
 main.toggle  .sidebar{
@@ -50,8 +48,8 @@ main .sidebar .container .user .user-icon img {
 
 main .sidebar .container .user .user-name, .user-brief {
   cursor: default;
-  padding-left: 12px;
-  padding-right: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 main .sidebar .container .user .user-brief {
@@ -93,8 +91,8 @@ main .sidebar .container .menu .current {
 }
 
 main  .sidebar .copyright {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   text-align: center;
   color: #aaa;
   font-size: 12px;
@@ -103,9 +101,9 @@ main  .sidebar .copyright {
 
 main .view {
   float: right;
-  width: calc(100% - 210px);
   padding-top: 64px;
-  transition: 0.3s cubic-bezier(0.0,0.0,0.2,1);
+  width: calc(100% - 210px);
+  transition: 382ms ease;
 }
 
 main.toggle  .view {

@@ -222,7 +222,8 @@ audio:not([controls]) {
  */
 
 img {
-  border-style: none;
+  display: block;
+  /*border-style: none;*/
 }
 
 /**
@@ -481,10 +482,6 @@ template {
  *  工具样式
  */
 
-.mt-9 {
-  margin-top: 9px;
-}
-
 .pull-left {
   float: left !important;
 }
@@ -525,6 +522,15 @@ template {
   border: 0;
 }
 
+/*Flex项目在flex容器中显示成一行，flex项目什么自动缩减来适应flex容器的宽度*/
+
+.df_fw-n {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/*flex项目在ltr上下文中从左向右排在一行*/
+
 .df_fd-r {
   display: flex;
   flex-direction: row;
@@ -542,20 +548,32 @@ template {
   justify-content: space-between;
 }
 
-.df_jc-c_ai-c {
+/*垂直居中*/
+
+.df_ai-c {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
+
+/*水平居中*/
 
 .df_jc-c {
   display: flex;
   justify-content: center;
 }
 
+/*水平垂直居中*/
+
+.df_jc-c_ai-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  /*--元素以从上到下排在一列中--*/
+
 .df_fd-c {
   display: flex;
-  /*--元素以从上到下排在一列中--*/
   flex-direction: column;
 }
 

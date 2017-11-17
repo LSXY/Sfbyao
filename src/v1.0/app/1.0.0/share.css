@@ -1,6 +1,5 @@
 main .view .share {
-  width: 94%;
-  transition: 0.311s linear;
+  width: 92%;
 }
 
 main .view .share .stone {
@@ -22,7 +21,7 @@ main .view .share .stone .tale {
 }
 
 main .view .share .stone .tale .strik {
-  padding: 16px;
+  margin: 16px;
   height: 36px;
 }
 
@@ -35,15 +34,16 @@ main .view .share .stone .tale:hover .right .more {
 }
 
 main .view .share .stone .tale .strik .left .user-name {
-  margin-left: 6px;
-}
-
-main .view .share .stone .tale .strik .left .user-name, .alt, .right .timeout {
-  line-height: 36px;
+  margin-left: 8px;
 }
 
 main .view .share .stone .tale .right .more {
   display: none;
+  cursor: pointer;
+}
+
+main .view .share .stone .tale .duce {
+  margin: 0 16px 16px;
 }
 
 
@@ -51,9 +51,12 @@ main .view .share .stone .tale .right .more {
 main .view .share .stone .tale .dsc {
 }
 
-main .view .share .stone .tale .dsc img {
-  display: block;
+main .view .share .stone .tale .dsc .mask {
+  overflow: hidden;
+}
+
+main .view .share .stone .tale .dsc .mask img {
   width: 100%;
-  /*height: auto;*/
+  height: 100%;
 }
 

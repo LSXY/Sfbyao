@@ -8,18 +8,14 @@ header {
 }
 
 header .menu{
-  padding: 8px;
-}
-
-header .menu a{
-  width: 48px;
-  height: 48px;
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
 }
 
 header .title {
   width: 180px;
   height:24px;
-  padding: 20px 10px;
 }
 
 header .title a {
@@ -36,7 +32,6 @@ header .search {
   margin-left: 20px;
   width: 40px;
   height: 44px;
-  padding: 10px;
   transition: 0.4s ease;
   /*overflow: hidden;*/
   cursor: pointer;
