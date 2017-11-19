@@ -1,0 +1,125 @@
+header {
+  position: fixed;
+  width: 100%;
+  height: 64px;
+  background-color: #FFF;
+  box-shadow: 0 1px 8px rgba(0,0,0,.3);
+  z-index: 5;
+}
+
+header .menu{
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+}
+
+header .title {
+  width: 180px;
+  height:24px;
+}
+
+header .title a {
+  line-height: 24px;
+  font-size: 21px;
+}
+
+header .title a:first-child {
+  font-weight: 900;
+}
+
+header .search {
+  display: none;
+  margin-left: 20px;
+  width: 40px;
+  height: 44px;
+  transition: 0.4s ease;
+  /*overflow: hidden;*/
+  cursor: pointer;
+  /*z-index: 1;*/
+}
+
+header.search-spread .search {
+  z-index: 1;
+  cursor: auto;
+  width: 600px;
+  background-color: #BBBBBB;
+  overflow: initial;
+}
+
+header .search .icon {
+  display: block;
+  width: 24px;
+  padding-top: 11px;
+  padding-bottom: 15px;
+  transition: 0.4s ease;
+}
+
+header.search-spread .search .icon {
+  opacity: 0;
+  padding-left: 265px;
+}
+
+header .search .active {
+  /*display: none;*/
+  transition: 0.4s ease;
+}
+
+header.search-spread .search .active {
+  display: block;
+  transform: translate3d(0,-54px,0);
+  background-color: transparent;
+}
+
+header .search .active .import, .suggest {
+  font-size: 20px;
+  line-height: 44px;
+}
+
+header .search .active .import {
+  opacity: 0;
+  width: 100%;
+  height: 44px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  /*caret-color: transparent;*/
+  color: #FFFFFF;
+  transition: 0.4s ease 0.075s;
+}
+
+header.search-spread .search .active .import{
+  display: block;
+  opacity: 1;
+}
+
+header .search .active .suggest {
+  opacity: 0;
+  margin-top: 10px;
+  margin-left: -10px;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(61, 61, 61, 0.5);
+  transition: 0.4s ease 0.2s;
+}
+
+header.search-spread .search .active .suggest{
+  opacity: 1;
+}
+
+header .search .active .suggest a {
+  display: block;
+  transition: 0.22s ease;
+}
+
+header .search .active .suggest a .keyword {
+  color: #000000;
+}
+
+header .search .active .suggest a:hover {
+   background-color: rgba(245, 245, 245, 0.5);
+}
+
+header .pad {
+  height: 64px;
+}

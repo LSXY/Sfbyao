@@ -1,0 +1,57 @@
+
+/*  标题栏  */
+
+header {
+  /*transform: translate3d(0,-64px,0);*/
+  animation: header-show  0.3s cubic-bezier(0.0,0.0,0.2,1);
+}
+
+@keyframes header-show {
+  0% {
+    transform: translate3d(0,-64px,0);
+  }
+  75% {
+    /*transform: translate3d(-40px,0,0);*/
+  }
+  100% {
+    transform: translate3d(0,0,0);
+  }
+}
+
+/*  侧边栏  */
+
+main  .sidebar {
+  /*transform: translate3d(0,0,0);*/
+  animation: sidebar-show  0.3s cubic-bezier(0.0,0.0,0.2,1);
+}
+
+@keyframes sidebar-show {
+  0% {
+    transform: translate3d(-210px,0,0);
+  }
+  75% {
+    /*transform: translate3d(-40px,0,0);*/
+  }
+  100% {
+    transform: translate3d(0,0,0);
+  }
+}
+
+/*  应用块  */
+
+main .view {
+  /*transform: translate3d(0,210px,0);*/
+  animation: view-show  0.3s cubic-bezier(0.0,0.0,0.2,1);
+}
+
+@keyframes view-show {
+  0% {
+    transform: translate3d(0,210px,0);
+  }
+  75% {
+    /*transform: translate3d(-40px,0,0);*/
+  }
+  100% {
+  transform: translate3d(0,0,0);
+  }
+}

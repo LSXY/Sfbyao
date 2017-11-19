@@ -1,0 +1,149 @@
+ body {
+  margin: 0;
+  font-size: 12.75px;
+  line-height: 18px;
+  font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  color: #333333;
+  }
+
+ ::selection {
+  background-color: #B3D4FC;
+  text-shadow: none;
+ }
+
+ ul {
+  margin: 0;
+  padding: 0;
+ }
+
+ li {
+  list-style: none;
+ }
+
+ img {
+  display: block;
+ }
+
+ /**
+ *  工具样式
+ */
+
+.pull-left {
+  float: left !important;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+/*Flex项目在flex容器中显示成一行，flex项目什么自动缩减来适应flex容器的宽度*/
+
+.df_fw-n {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/*flex项目在ltr上下文中从左向右排在一行*/
+
+.df_fd-r {
+  display: flex;
+  flex-direction: row;
+}
+
+/*Flex项目行与行之间间距相等，并且flex项目行第一行排在flex容器侧轴开始之处，flex项目行最后一行排在flex容器侧轴末尾之处。*/
+
+.df_ac-sb {
+  display: flex;
+  align-content: space-between;
+}
+
+.df_jc-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*垂直居中*/
+
+.df_ai-c {
+  display: flex;
+  align-items: center;
+}
+
+/*水平居中*/
+
+.df_jc-c {
+  display: flex;
+  justify-content: center;
+}
+
+/*水平垂直居中*/
+
+.df_jc-c_ai-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  /*--元素以从上到下排在一列中--*/
+
+.df_fd-c {
+  display: flex;
+  flex-direction: column;
+}
+
+/**
+ *  自定义页面样式
+ */
+
+a {
+  text-decoration: none;
+  color: #666666;
+}
+
+a:hover, a:active {
+  /*color: #00AAEE;*/
+  /*text-decoration: underline;*/
+}
+
+.alt {
+  color: #2962FF;
+}
+
+.alt-svg-18 {
+  width: 18px;
+  height: 18px;
+  stroke: none;
+  fill: #0000ff;
+}

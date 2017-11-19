@@ -46,14 +46,29 @@ main .view .share .stone .tale .duce {
   margin: 0 16px 16px;
 }
 
-
-
-main .view .share .stone .tale .dsc {
+main .view .share .stone .tale .great {
+  display: flex;
+  flex-direction: column;
 }
 
-main .view .share .stone .tale .dsc img {
+main .view .share .stone .tale .great .dsc {
+  display: flex;
+    align-self:   stretch;
+}
+
+main .view .share .stone .tale .great .dsc img {
   width: 100%;
   height: 100%;
   overflow: hidden;
+}
+
+main .view .share .stone .tale .great .mask {
+  /*display: flex;*/
+    /*margin-top: -82px;*/
+    padding: 0 16px 16px;
+    color: #FFFFFF;
+    background-image: linear-gradient(to top,rgba(0,0,0,.75),transparent);
+    background: pink;
+    align-self:   flex-end;
 }
 
