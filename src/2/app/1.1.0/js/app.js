@@ -35,6 +35,7 @@
       if (cn.indexOf(an) < 0) {
         main.className += an;
         main.removeChild(shadow);
+        D.body.style.overflowY = 'auto';
       } else {
         main.className = cn.replace('toggle','');
         main.appendChild(shadow);
