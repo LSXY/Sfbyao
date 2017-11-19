@@ -55,3 +55,19 @@ main .view {
   transform: translate3d(0,0,0);
   }
 }
+
+/*  shadow  */
+
+main .shadow {
+  /*transform: translate3d(0,210px,0);*/
+  animation: shadow-show  0.3s cubic-bezier(0.0,0.0,0.2,1);
+}
+
+@keyframes shadow-show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

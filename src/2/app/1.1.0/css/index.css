@@ -1,5 +1,5 @@
 main .view .index {
-  width: 94%;
+  width: 92%;
 }
 
 main .view .index .stone {
@@ -16,8 +16,8 @@ main .view .index .stone + .stone {
 
 main .view .index .stone .tale {
   margin-top: 24px;
-  background-color: #FFFFFF;
   box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+  background-color: #FFFFFF;
 }
 
 main .view .index .stone .tale .strik {
@@ -111,12 +111,13 @@ main .view .index .stone .tale .publish .left .user-photo {
 
 main .view .index .stone .tale .publish .left .input {
   margin-left: 16px;
-  padding-left: 8px;
   width: 100%;
   height: 36px;
+  text-align: center;
   line-height: 36px;
   font-size: 15px;
   background-color: #F5F5F5;
+  border-radius: 8px;
   cursor: pointer;
 }
 
@@ -145,4 +146,15 @@ main .view .index .stone .tale .publish .right .publish-svg {
 
 main .view .index .stone .tale .publish .right .praise-num {
   margin-right: 6px;
+}
+
+
+@media screen and (max-width: 480px) {
+  main .view .index {
+    width: 100%;
+  }
+
+  main .view .index .stone .tale {
+    margin-top: 16px;
+  }
 }

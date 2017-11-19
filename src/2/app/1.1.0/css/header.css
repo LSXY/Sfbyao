@@ -24,7 +24,7 @@ header .title a {
 }
 
 header .title a:first-child {
-  font-weight: 900;
+  font-weight: 500;
 }
 
 header .search {
