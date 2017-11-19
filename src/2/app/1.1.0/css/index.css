@@ -158,3 +158,15 @@ main .view .index .stone .tale .publish .right .praise-num {
     margin-top: 16px;
   }
 }
+
+@media screen and (max-width: 800px) {
+  main .view .index .stone + .stone {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  main .view .index .stone:nth-child(3) {
+    display: none;
+  }
+}
