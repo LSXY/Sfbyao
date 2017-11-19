@@ -38,6 +38,7 @@
       } else {
         main.className = cn.replace('toggle','');
         main.appendChild(shadow);
+        D.body.style.overflowY = 'hidden';
       }
     }
 
