@@ -24,6 +24,10 @@
   display: block;
  }
 
+ nav, div, span, a {
+  -webkit-tap-highlight-color: transparent;
+ }
+
  /**
  *  工具样式
  */
