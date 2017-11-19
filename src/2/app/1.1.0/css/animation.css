@@ -71,3 +71,9 @@ main .shadow {
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 480px) {
+  main  .sidebar {
+    animation: none;
+  }
+}

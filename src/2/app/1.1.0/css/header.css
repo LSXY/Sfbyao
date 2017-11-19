@@ -11,6 +11,7 @@ header .menu{
   width: 64px;
   height: 64px;
   cursor: pointer;
+  outline: none;
 }
 
 header .title {
